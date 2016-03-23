@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LeftViewController.h"
+#import "contentController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +16,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    contentController *ctr[4];
+    for (int k = 0; k < 4; k++) {
+        ctr[k] = [[contentController alloc] init];
+        ctr[k].str = [NSString stringWithFormat:@"%d",k];
+    }
+    LeftViewController *left = [[LeftViewController alloc] init];
+    left.childersController = [NSArray arrayWithObjects:ctr[0], ctr[1], ctr[2], ctr[3], nil];
+    self.window.rootViewController = left;
+    //[self.window addSubview:left.view];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

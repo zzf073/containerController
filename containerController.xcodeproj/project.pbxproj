@@ -19,6 +19,14 @@
 		80A8DFB2198A2D46006CDAB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A8DF9A198A2D45006CDAB6 /* UIKit.framework */; };
 		80A8DFBA198A2D46006CDAB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80A8DFB8198A2D46006CDAB6 /* InfoPlist.strings */; };
 		80A8DFBC198A2D46006CDAB6 /* containerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8DFBB198A2D46006CDAB6 /* containerControllerTests.m */; };
+		80A8DFC7198A2D7F006CDAB6 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8DFC6198A2D7F006CDAB6 /* LeftViewController.m */; };
+		80A8DFCA198A33D9006CDAB6 /* contentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8DFC9198A33D9006CDAB6 /* contentController.m */; };
+		80A8DFCD198A431A006CDAB6 /* presentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8DFCC198A431A006CDAB6 /* presentViewController.m */; };
+		80A8DFD0198F34EF006CDAB6 /* baseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8DFCF198F34EF006CDAB6 /* baseView.m */; };
+		80A8DFD3198F35EE006CDAB6 /* contentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8DFD2198F35EE006CDAB6 /* contentView.m */; };
+		80A8DFD6198F360E006CDAB6 /* presentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8DFD5198F360E006CDAB6 /* presentView.m */; };
+		80A8E02019908100006CDAB6 /* UIView+dump.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8E01F19908100006CDAB6 /* UIView+dump.m */; };
+		80A8E0231994D658006CDAB6 /* containerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A8E0221994D658006CDAB6 /* containerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,22 @@
 		80A8DFB7198A2D46006CDAB6 /* containerControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "containerControllerTests-Info.plist"; sourceTree = "<group>"; };
 		80A8DFB9198A2D46006CDAB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80A8DFBB198A2D46006CDAB6 /* containerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = containerControllerTests.m; sourceTree = "<group>"; };
+		80A8DFC5198A2D7F006CDAB6 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		80A8DFC6198A2D7F006CDAB6 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		80A8DFC8198A33D9006CDAB6 /* contentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = contentController.h; path = ../contentController.h; sourceTree = "<group>"; };
+		80A8DFC9198A33D9006CDAB6 /* contentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = contentController.m; path = ../contentController.m; sourceTree = "<group>"; };
+		80A8DFCB198A431A006CDAB6 /* presentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = presentViewController.h; path = ../presentViewController.h; sourceTree = "<group>"; };
+		80A8DFCC198A431A006CDAB6 /* presentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = presentViewController.m; path = ../presentViewController.m; sourceTree = "<group>"; };
+		80A8DFCE198F34EF006CDAB6 /* baseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = baseView.h; path = ../baseView.h; sourceTree = "<group>"; };
+		80A8DFCF198F34EF006CDAB6 /* baseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = baseView.m; path = ../baseView.m; sourceTree = "<group>"; };
+		80A8DFD1198F35EE006CDAB6 /* contentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentView.h; sourceTree = "<group>"; };
+		80A8DFD2198F35EE006CDAB6 /* contentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentView.m; sourceTree = "<group>"; };
+		80A8DFD4198F360E006CDAB6 /* presentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = presentView.h; path = ../presentView.h; sourceTree = "<group>"; };
+		80A8DFD5198F360E006CDAB6 /* presentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = presentView.m; path = ../presentView.m; sourceTree = "<group>"; };
+		80A8E01E19908100006CDAB6 /* UIView+dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+dump.h"; sourceTree = "<group>"; };
+		80A8E01F19908100006CDAB6 /* UIView+dump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+dump.m"; sourceTree = "<group>"; };
+		80A8E0211994D658006CDAB6 /* containerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = containerView.h; path = ../containerView.h; sourceTree = "<group>"; };
+		80A8E0221994D658006CDAB6 /* containerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = containerView.m; path = ../containerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +131,24 @@
 		80A8DF9C198A2D46006CDAB6 /* containerController */ = {
 			isa = PBXGroup;
 			children = (
+				80A8DFCB198A431A006CDAB6 /* presentViewController.h */,
+				80A8DFCC198A431A006CDAB6 /* presentViewController.m */,
+				80A8DFC8198A33D9006CDAB6 /* contentController.h */,
+				80A8DFC9198A33D9006CDAB6 /* contentController.m */,
 				80A8DFA5198A2D46006CDAB6 /* AppDelegate.h */,
 				80A8DFA6198A2D46006CDAB6 /* AppDelegate.m */,
+				80A8DFC5198A2D7F006CDAB6 /* LeftViewController.h */,
+				80A8DFC6198A2D7F006CDAB6 /* LeftViewController.m */,
+				80A8E0211994D658006CDAB6 /* containerView.h */,
+				80A8E0221994D658006CDAB6 /* containerView.m */,
+				80A8DFCE198F34EF006CDAB6 /* baseView.h */,
+				80A8DFCF198F34EF006CDAB6 /* baseView.m */,
+				80A8DFD4198F360E006CDAB6 /* presentView.h */,
+				80A8DFD5198F360E006CDAB6 /* presentView.m */,
+				80A8DFD1198F35EE006CDAB6 /* contentView.h */,
+				80A8DFD2198F35EE006CDAB6 /* contentView.m */,
+				80A8E01E19908100006CDAB6 /* UIView+dump.h */,
+				80A8E01F19908100006CDAB6 /* UIView+dump.m */,
 				80A8DFA8198A2D46006CDAB6 /* Images.xcassets */,
 				80A8DF9D198A2D46006CDAB6 /* Supporting Files */,
 			);
@@ -239,8 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A8DFC7198A2D7F006CDAB6 /* LeftViewController.m in Sources */,
+				80A8DFD0198F34EF006CDAB6 /* baseView.m in Sources */,
+				80A8DFCA198A33D9006CDAB6 /* contentController.m in Sources */,
+				80A8E02019908100006CDAB6 /* UIView+dump.m in Sources */,
 				80A8DFA7198A2D46006CDAB6 /* AppDelegate.m in Sources */,
+				80A8DFD6198F360E006CDAB6 /* presentView.m in Sources */,
+				80A8DFCD198A431A006CDAB6 /* presentViewController.m in Sources */,
 				80A8DFA3198A2D46006CDAB6 /* main.m in Sources */,
+				80A8E0231994D658006CDAB6 /* containerView.m in Sources */,
+				80A8DFD3198F35EE006CDAB6 /* contentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -348,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -362,7 +410,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "containerController/containerController-Prefix.pch";
 				INFOPLIST_FILE = "containerController/containerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,7 +425,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "containerController/containerController-Prefix.pch";
 				INFOPLIST_FILE = "containerController/containerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -441,6 +493,7 @@
 				80A8DFC1198A2D46006CDAB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80A8DFC2198A2D46006CDAB6 /* Build configuration list for PBXNativeTarget "containerControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +502,7 @@
 				80A8DFC4198A2D46006CDAB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
